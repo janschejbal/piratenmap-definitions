@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+	<group name="Plakate" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-gehaengt.png">
+		<item name="Plakat aufgehängt" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-gehaengt.png" type="node">
+			<key key="plakat" value="gehaengt" />
+			<combo key="plakattyp" text="Plakattyp" values="platte,wand,grossplakat,sonstiges" default="platte" delete_if_empty="true" />
+			<text key="anlass" text="Anlass" default="" delete_if_empty="true" />
+		</item>
+		<item name="Plakat entfernt" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-entfernt.png" type="node">
+			<key key="plakat" value="entfernt" />
+		</item>
+		<item name="Plakat kaputt" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-kaputt.png" type="node">
+			<key key="plakat" value="kaputt" />
+			<optional>
+				<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+			</optional>
+		</item>
+		<item name="Plakat fehlt" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-fehlt.png" type="node">
+			<key key="plakat" value="fehlt" />
+		</item>
+		<item name="Guter Plakatplatz" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-empfehlung.png" type="node">
+			<key key="plakat" value="empfehlung" />
+			<combo key="plakattyp" text="Plakattyp" values="platte,wand,grossplakat,sonstiges" default="platte" delete_if_empty="true" />
+			<optional>
+				<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+			</optional>
+		</item>
+		
+		<item name="Plakattyp Platte" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-entfernt.png" type="node">
+			<key key="plakattyp" value="platte" />
+		</item>
+		<item name="Plakattyp Wand" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-wand-entfernt.png" type="node">
+			<key key="plakattyp" value="wand" />
+		</item>
+		<item name="Plakattyp Großplakat" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-grossplakat-entfernt.png" type="node">
+			<key key="plakattyp" value="grossplakat" />
+		</item>
+		<item name="Plakattyp Sonstiges" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/plakat-entfernt.png" type="node">
+			<key key="plakattyp" value="sonstiges" />
+		</item>
+	</group>
+	
+	<item name="Überwachungskamera" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/kamera.png" type="node">
+		<key key="ueberwachung" value="kamera" />
+		<key key="man_made" value="surveillance" />
+		<combo key="surveillance" text="Typ" values="indoor,outdoor,public" default="" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+	<item name="Kameraüberwachter Bereich" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-blau.png" type="closedway">
+		<key key="ueberwachung" value="kamera" />
+		<key key="man_made" value="surveillance" />
+		<combo key="surveillance" text="Typ" values="indoor,outdoor,public" default="" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+
+	<item name="Mahnwache, Infostand" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/stand.png" type="node">
+		<key key="aktion" value="stand" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+	<item name="Sonstige Aktion" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/stand.png" type="node">
+		<key key="aktion" value="Sonstiges" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+
+	<item name="Stammtisch" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/stammtisch.png" type="node">
+		<key key="ort" value="stammtisch" />
+		<text key="addr:housenumber" text="House number" default="" delete_if_empty="true" />
+		<text key="addr:housename" text="House name" default="" delete_if_empty="true" />
+		<text key="addr:street" text="Street name" use_last_as_default="true" delete_if_empty="true" />
+		<text key="addr:city" text="City name" use_last_as_default="true" delete_if_empty="true" />
+		<text key="addr:postcode" text="Post code" use_last_as_default="true" delete_if_empty="true" />
+		<combo key="addr:country" text="Country code" values="AT,CH,DE,FR,GB,IT,US" use_last_as_default="true" delete_if_empty="true" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+	<item name="Geschäftsstelle" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/geschaeftsstelle.png" type="node">
+		<key key="ort" value="geschaeftsstelle" />
+		<text key="addr:housenumber" text="House number" default="" delete_if_empty="true" />
+		<text key="addr:housename" text="House name" default="" delete_if_empty="true" />
+		<text key="addr:street" text="Street name" use_last_as_default="true" delete_if_empty="true" />
+		<text key="addr:city" text="City name" use_last_as_default="true" delete_if_empty="true" />
+		<text key="addr:postcode" text="Post code" use_last_as_default="true" delete_if_empty="true" />
+		<combo key="addr:country" text="Country code" values="AT,CH,DE,FR,GB,IT,US" use_last_as_default="true" delete_if_empty="true" />
+		<optional>
+			<text key="name" text="Name" default="" delete_if_empty="true" />
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+	
+	
+	<group name="Gebiete" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-grau.png">
+		<item name="Briefkasten-Flyergebiet" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-grau.png" type="closedway">
+			<key key="gebiet" value="briefkastenflyer" />
+			<combo key="gebietsstatus" text="Status" values="todo,reserviert,erledigt" default="todo" delete_if_empty="true" />
+			<text key="anlass" text="Anlass" default="" delete_if_empty="true" />
+			<optional>
+				<text key="name" text="Name" default="" delete_if_empty="true" />
+				<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+			</optional>
+		</item>
+		<item name="Plakatiergebiet" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-grau.png" type="closedway">
+			<key key="gebiet" value="briefkastenflyer" />
+			<combo key="gebietsstatus" text="Status" values="todo,reserviert,erledigt" default="todo" delete_if_empty="true" />
+			<text key="anlass" text="Anlass" default="" delete_if_empty="true" />
+			<optional>
+				<text key="name" text="Name" default="" delete_if_empty="true" />
+				<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+			</optional>
+		</item>
+		<item name="Sonstiges Gebiet" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-grau.png" type="closedway">
+			<key key="gebiet" value="sonstiges" />
+			<combo key="gebietsstatus" text="Status" values="todo,reserviert,erledigt" default="todo" delete_if_empty="true" />
+			<text key="anlass" text="Anlass" default="" delete_if_empty="true" />
+			<optional>
+				<text key="name" text="Name" default="" delete_if_empty="true" />
+				<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+			</optional>
+		</item>
+		
+		<item name="Stauts TODO" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-rot.png" type="closedway">
+			<key key="gebietsstatus" value="todo"/>
+		</item>
+		<item name="Stauts reserviert" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-gelb.png" type="closedway">
+			<key key="gebietsstatus" value="reserviert"/>
+			<text key="zustaendig" text="Zuständig" default="" delete_if_empty="true" />
+		</item>
+		<item name="Stauts erledigt" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-gruen.png" type="closedway">
+			<key key="gebietsstatus" value="erledigt"/>
+		</item>		
+	</group>
+	
+	<item name="Demo - Kundgebung" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/kundgebung.png" type="node">
+		<key key="demo" value="kundgebung" />
+		<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+	</item>
+	<item name="Demo - Route" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/kundgebung.png" type="way">
+		<key key="demo" value="route" />
+		<text key="name" text="Name" default="" delete_if_empty="true" />
+		<optional>
+			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
+		</optional>
+	</item>
+	<item name="Bannmeile" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-rot.png" type="closedway">
+		<key key="demo" value="bannmeile" />
+		<text key="name" text="Name" default="" delete_if_empty="true" />
+		<text key="text" text="Erläuterungen" default="" delete_if_empty="true" />
+	</item>
+	
+</presets>

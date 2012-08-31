@@ -1,0 +1,87 @@
+node[plakat], node[ort], node[ueberwachung], node[aktion], node[demo] {
+	 icon-width: 25;
+}
+
+
+node[plakat=empfehlung] { icon-image: "/images/plakat-empfehlung.png"; }
+node[plakat=gehaengt] { icon-image: "/images/plakat-gehaengt.png"; }
+node[plakat=fehlt] { icon-image: "/images/plakat-fehlt.png"; }
+node[plakat=kaputt] { icon-image: "/images/plakat-kaputt.png"; }
+node[plakat=entfernt] { icon-image: "/images/plakat-entfernt.png"; }
+
+node[plakat=empfehlung][plakattyp=wand] { icon-image: "/images/plakat-wand-empfehlung.png"; }
+node[plakat=gehaengt][plakattyp=wand] { icon-image: "/images/plakat-wand-gehaengt.png"; }
+node[plakat=fehlt][plakattyp=wand] { icon-image: "/images/plakat-wand-fehlt.png"; }
+node[plakat=kaputt][plakattyp=wand] { icon-image: "/images/plakat-wand-kaputt.png"; }
+node[plakat=entfernt][plakattyp=wand] { icon-image: "/images/plakat-wand-entfernt.png"; }
+
+node[plakat=empfehlung][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-empfehlung.png"; }
+node[plakat=gehaengt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-gehaengt.png"; }
+node[plakat=fehlt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-fehlt.png"; }
+node[plakat=kaputt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-kaputt.png"; }
+node[plakat=entfernt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-entfernt.png"; }
+
+
+
+node[ort=stammtisch] { icon-image: "/images/stammtisch.png"; }
+node[ort=geschaeftsstelle] { icon-image: "/images/geschaeftsstelle.png"; }
+node[ueberwachung=kamera] { icon-image: "/images/kamera.png"; }
+node[aktion=stand], node[aktion=sonstiges] { icon-image: "/images/stand.png"; }
+node[demo=kundgebung] { icon-image: "/images/kundgebung.png"; }
+
+
+way[ueberwachung=kamera] {
+	color: #0000ff;
+	width: 3;
+	opacity: 0.7;
+	fill-opacity: 0.4;
+	fill-color: #0000ff;
+}
+
+way[demo=route] {
+	width: 16;
+	color: #ff8000;
+	opacity: 0.8;
+}
+
+way[gebiet] {
+	fill-color: #666666;
+	fill-opacity: 0.3;
+	color: #666666;
+	opacity: 0.5;
+	width: 2;
+	dashes: 20,5;
+}
+
+way[gebiet=briefkastenflyer] {
+	dashes: 20,5, 5,5;
+}
+
+way[gebiet=plakate] {
+	dashes: 20,5, 5,5, 5,5, 5,5;
+}
+
+way[gebiet][gebietsstatus=todo] {
+	fill-color: #ff3333;
+	color: #ff3333;
+}
+
+way[gebiet][gebietsstatus=erledigt] {
+	fill-color: #00ff00;
+	color: #00ff00;
+}
+
+way[gebiet][gebietsstatus=reserviert] {
+	fill-color: #ffff00;
+	color: #ffff00;
+}
+
+way[demo=bannmeile] {
+	fill-color: #ff0000;
+	fill-opacity: 0.4;
+	color: #ff0000;
+	opacity: 1;
+	width: 4;	
+	dashes: 5,5;
+}
+
