@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-234' action='modify' visible='true' lat='50.11623973420191' lon='8.68705236063951' />
+  <node id='-232' action='modify' visible='true' lat='50.11531807948708' lon='8.681437890113765'>
+    <tag k='aktion' v='sonstiges' />
+  </node>
+  <node id='-223' action='modify' visible='true' lat='50.12302643671603' lon='8.682800393296361'>
+    <tag k='plakat' v='entfernt' />
+    <tag k='plakattyp' v='sonstiges' />
+  </node>
+  <node id='-222' action='modify' visible='true' lat='50.123012038038915' lon='8.683766082226787'>
+    <tag k='plakat' v='kaputt' />
+    <tag k='plakattyp' v='sonstiges' />
+  </node>
+  <node id='-221' action='modify' visible='true' lat='50.12300483869873' lon='8.68463071068775'>
+    <tag k='plakat' v='fehlt' />
+    <tag k='plakattyp' v='sonstiges' />
+  </node>
+  <node id='-220' action='modify' visible='true' lat='50.12297604132715' lon='8.685618857500284'>
+    <tag k='plakat' v='empfehlung' />
+    <tag k='plakattyp' v='sonstiges' />
+  </node>
+  <node id='-219' action='modify' visible='true' lat='50.123012038038915' lon='8.681879620130138'>
+    <tag k='plakat' v='gehaengt' />
+    <tag k='plakattyp' v='sonstiges' />
+  </node>
+  <node id='-208' action='modify' visible='true' lat='50.123818357288116' lon='8.68285653800162'>
+    <tag k='plakat' v='entfernt' />
+    <tag k='plakattyp' v='grossplakat' />
+  </node>
+  <node id='-207' action='modify' visible='true' lat='50.1238039588492' lon='8.683822226932046'>
+    <tag k='plakat' v='kaputt' />
+    <tag k='plakattyp' v='grossplakat' />
+  </node>
+  <node id='-206' action='modify' visible='true' lat='50.12379675962814' lon='8.684686855393009'>
+    <tag k='plakat' v='fehlt' />
+    <tag k='plakattyp' v='grossplakat' />
+  </node>
+  <node id='-205' action='modify' visible='true' lat='50.12376796273298' lon='8.685675002205542'>
+    <tag k='plakat' v='empfehlung' />
+    <tag k='plakattyp' v='grossplakat' />
+  </node>
+  <node id='-204' action='modify' visible='true' lat='50.1238039588492' lon='8.681935764835396'>
+    <tag k='plakat' v='gehaengt' />
+    <tag k='plakattyp' v='grossplakat' />
+  </node>
+  <node id='-203' action='modify' visible='true' lat='50.124567070143414' lon='8.682777935414258'>
+    <tag k='plakat' v='entfernt' />
+    <tag k='plakattyp' v='wand' />
+  </node>
+  <node id='-202' action='modify' visible='true' lat='50.12455267192973' lon='8.683743624344684'>
+    <tag k='plakat' v='kaputt' />
+    <tag k='plakattyp' v='wand' />
+  </node>
+  <node id='-201' action='modify' visible='true' lat='50.124545472821275' lon='8.68460825280565'>
+    <tag k='plakat' v='fehlt' />
+    <tag k='plakattyp' v='wand' />
+  </node>
+  <node id='-200' action='modify' visible='true' lat='50.12451667637655' lon='8.685596399618182'>
+    <tag k='plakat' v='empfehlung' />
+    <tag k='plakattyp' v='wand' />
+  </node>
+  <node id='-199' action='modify' visible='true' lat='50.12455267192973' lon='8.681857162248034'>
+    <tag k='plakat' v='gehaengt' />
+    <tag k='plakattyp' v='wand' />
+  </node>
+  <node id='-186' action='modify' visible='true' lat='50.12511779856618' lon='8.685860279732891'>
+    <tag k='plakat' v='empfehlung' />
+    <tag k='plakattyp' v='platte' />
+  </node>
+  <node id='-185' action='modify' visible='true' lat='50.12514659464924' lon='8.68487213292036'>
+    <tag k='plakat' v='fehlt' />
+  </node>
+  <node id='-184' action='modify' visible='true' lat='50.125153793667295' lon='8.684007504459395'>
+    <tag k='plakat' v='kaputt' />
+  </node>
+  <node id='-183' action='modify' visible='true' lat='50.12516819170017' lon='8.683041815528966'>
+    <tag k='plakat' v='entfernt' />
+  </node>
+  <node id='-182' action='modify' visible='true' lat='50.125153793667295' lon='8.682121042362745'>
+    <tag k='plakat' v='gehaengt' />
+    <tag k='plakattyp' v='platte' />
+  </node>
+  <node id='-179' action='modify' visible='true' lat='50.113629707533256' lon='8.676675105618362'>
+    <tag k='aktion' v='stand' />
+  </node>
+  <node id='-177' action='modify' visible='true' lat='50.11424027612251' lon='8.68660429431053'>
+    <tag k='man_made' v='surveillance' />
+    <tag k='ueberwachung' v='kamera' />
+  </node>
+  <node id='-175' action='modify' visible='true' lat='50.11529156077284' lon='8.686447089135813' />
+  <node id='-168' action='modify' visible='true' lat='50.114863129061504' lon='8.687631742416743' />
+  <node id='-166' action='modify' visible='true' lat='50.11410706374859' lon='8.68778333312094' />
+  <node id='-164' action='modify' visible='true' lat='50.114063859655836' lon='8.686138293256894' />
+  <node id='-163' action='modify' visible='true' lat='50.11486672934395' lon='8.686098991963215' />
+  <node id='-162' action='modify' visible='true' lat='50.11634183482556' lon='8.680266911080484' />
+  <node id='-154' action='modify' visible='true' lat='50.120303806074446' lon='8.679964672725433' />
+  <node id='-152' action='modify' visible='true' lat='50.120409320044374' lon='8.682109988426733' />
+  <node id='-150' action='modify' visible='true' lat='50.11908196706395' lon='8.684254522536353' />
+  <node id='-148' action='modify' visible='true' lat='50.11945636199724' lon='8.684939487940493' />
+  <node id='-146' action='modify' visible='true' lat='50.11836916861665' lon='8.685691826990944' />
+  <node id='-144' action='modify' visible='true' lat='50.11738275326047' lon='8.681301311039809' />
+  <node id='-142' action='modify' visible='true' lat='50.116281112088366' lon='8.681739239740818' />
+  <node id='-123' action='modify' visible='true' lat='50.118349921328814' lon='8.679812167599279' />
+  <node id='-122' action='modify' visible='true' lat='50.117665859035476' lon='8.681370218132535' />
+  <node id='-114' action='modify' visible='true' lat='50.12085541643762' lon='8.67474049173248' />
+  <node id='-112' action='modify' visible='true' lat='50.12086981576345' lon='8.675661264898702' />
+  <node id='-110' action='modify' visible='true' lat='50.12223773196743' lon='8.678625705336296' />
+  <node id='-108' action='modify' visible='true' lat='50.1213881886089' lon='8.680354962258226' />
+  <node id='-106' action='modify' visible='true' lat='50.11970345633773' lon='8.679748599441446' />
+  <node id='-105' action='modify' visible='true' lat='50.10872615213837' lon='8.681510084071938' />
+  <node id='-100' action='modify' visible='true' lat='50.10863973420398' lon='8.680207526909966' />
+  <node id='-98' action='modify' visible='true' lat='50.107429866749264' lon='8.675850697781986' />
+  <node id='-96' action='modify' visible='true' lat='50.10815002963032' lon='8.67535662437572' />
+  <node id='-94' action='modify' visible='true' lat='50.107516286866755' lon='8.673470162279068' />
+  <node id='-92' action='modify' visible='true' lat='50.10863973420398' lon='8.672751510051773' />
+  <node id='-90' action='modify' visible='true' lat='50.1093310733129' lon='8.67468288791263' />
+  <node id='-88' action='modify' visible='true' lat='50.10938868445483' lon='8.67612019236722' />
+  <node id='-86' action='modify' visible='true' lat='50.10999359726085' lon='8.677198170708165' />
+  <node id='-84' action='modify' visible='true' lat='50.110713721591274' lon='8.677782075642842' />
+  <node id='-82' action='modify' visible='true' lat='50.11114579099173' lon='8.679488874682669' />
+  <node id='-81' action='modify' visible='true' lat='50.10921585082112' lon='8.679758369267905' />
+  <node id='-75' action='modify' visible='true' lat='50.11718310903594' lon='8.676066635341984' />
+  <node id='-73' action='modify' visible='true' lat='50.114362433694886' lon='8.674923266649705' />
+  <node id='-71' action='modify' visible='true' lat='50.114179134962555' lon='8.679353820332288' />
+  <node id='-70' action='modify' visible='true' lat='50.11661287760283' lon='8.679893744436978' />
+  <node id='-68' action='modify' visible='true' lat='50.11292657484503' lon='8.683784374014872'>
+    <tag k='ort' v='geschaeftsstelle' />
+  </node>
+  <node id='-66' action='modify' visible='true' lat='50.11118071883143' lon='8.681447282408243'>
+    <tag k='demo' v='kundgebung' />
+  </node>
+  <node id='-65' action='modify' visible='true' lat='50.11235427485669' lon='8.681798765277135' />
+  <node id='-61' action='modify' visible='true' lat='50.11102928311317' lon='8.681708933748725' />
+  <node id='-59' action='modify' visible='true' lat='50.11090686354766' lon='8.68212440456763' />
+  <node id='-57' action='modify' visible='true' lat='50.11116610461016' lon='8.682843056794924' />
+  <node id='-55' action='modify' visible='true' lat='50.111626974145' lon='8.684594771598958' />
+  <node id='-53' action='modify' visible='true' lat='50.112339872969606' lon='8.685942244525135' />
+  <node id='-49' action='modify' visible='true' lat='50.112541498994666' lon='8.688030827560716' />
+  <node id='-47' action='modify' visible='true' lat='50.114665721597376' lon='8.687873622385993' />
+  <node id='-45' action='modify' visible='true' lat='50.114658521001964' lon='8.683449419611705' />
+  <node id='-35' action='modify' visible='true' lat='50.113904217827404' lon='8.680339289947026' />
+  <node id='-33' action='modify' visible='true' lat='50.113967426869834' lon='8.679344456811808' />
+  <node id='-31' action='modify' visible='true' lat='50.11332634832059' lon='8.679096057809689' />
+  <node id='-29' action='modify' visible='true' lat='50.111699163338244' lon='8.676664102105386' />
+  <node id='-27' action='modify' visible='true' lat='50.112106513998036' lon='8.67571129486182' />
+  <node id='-25' action='modify' visible='true' lat='50.11025304051034' lon='8.670534375505108' />
+  <node id='-22' action='modify' visible='true' lat='50.10927535526546' lon='8.671963586370458' />
+  <node id='-21' action='modify' visible='true' lat='50.10762546615454' lon='8.665039853733873' />
+  <node id='-20' action='modify' visible='true' lat='50.115711416304876' lon='8.6768546635541' />
+  <node id='-19' action='modify' visible='true' lat='50.1132495483375' lon='8.678911292717007'>
+    <tag k='man_made' v='surveillance' />
+    <tag k='ueberwachung' v='kamera' />
+  </node>
+  <node id='-18' action='modify' visible='true' lat='50.11371798613052' lon='8.679737058994764'>
+    <tag k='man_made' v='surveillance' />
+    <tag k='ueberwachung' v='kamera' />
+  </node>
+  <node id='-17' action='modify' visible='true' lat='50.114771080832895' lon='8.68734204079003'>
+    <tag k='man_made' v='surveillance' />
+    <tag k='ueberwachung' v='kamera' />
+  </node>
+  <node id='-12' action='modify' visible='true' lat='50.115109446328056' lon='8.674043990919769'>
+    <tag k='ort' v='stammtisch' />
+  </node>
+  <node id='-11' action='modify' visible='true' lat='50.11480795081431' lon='8.684392850345919'>
+    <tag k='man_made' v='surveillance' />
+    <tag k='ueberwachung' v='kamera' />
+  </node>
+  <node id='-7' action='modify' visible='true' lat='50.11451992700899' lon='8.683337329887078'>
+    <tag k='aktion' v='stand' />
+  </node>
+  <way id='-165' action='modify' visible='true'>
+    <nd ref='-163' />
+    <nd ref='-164' />
+    <nd ref='-166' />
+    <nd ref='-168' />
+    <nd ref='-163' />
+    <tag k='man_made' v='surveillance' />
+    <tag k='surveillance' v='outdoor' />
+    <tag k='ueberwachung' v='kamera' />
+  </way>
+  <way id='-143' action='modify' visible='true'>
+    <nd ref='-70' />
+    <nd ref='-142' />
+    <nd ref='-144' />
+    <nd ref='-146' />
+    <nd ref='-148' />
+    <nd ref='-150' />
+    <nd ref='-152' />
+    <nd ref='-154' />
+    <nd ref='-106' />
+    <nd ref='-70' />
+    <tag k='gebiet' v='sonstiges' />
+    <tag k='gebietsstatus' v='todo' />
+  </way>
+  <way id='-107' action='modify' visible='true'>
+    <nd ref='-70' />
+    <nd ref='-123' />
+    <nd ref='-106' />
+    <nd ref='-154' />
+    <nd ref='-108' />
+    <nd ref='-110' />
+    <nd ref='-112' />
+    <nd ref='-114' />
+    <nd ref='-75' />
+    <nd ref='-70' />
+    <tag k='gebiet' v='briefkastenflyer' />
+    <tag k='gebietsstatus' v='reserviert' />
+  </way>
+  <way id='-83' action='modify' visible='true'>
+    <nd ref='-81' />
+    <nd ref='-82' />
+    <nd ref='-84' />
+    <nd ref='-86' />
+    <nd ref='-88' />
+    <nd ref='-90' />
+    <nd ref='-92' />
+    <nd ref='-94' />
+    <nd ref='-96' />
+    <nd ref='-98' />
+    <nd ref='-100' />
+    <nd ref='-81' />
+    <tag k='demo' v='bannmeile' />
+  </way>
+  <way id='-72' action='modify' visible='true'>
+    <nd ref='-70' />
+    <nd ref='-71' />
+    <nd ref='-73' />
+    <nd ref='-75' />
+    <nd ref='-70' />
+    <tag k='gebiet' v='plakate' />
+    <tag k='gebietsstatus' v='erledigt' />
+  </way>
+  <way id='-23' action='modify' visible='true'>
+    <nd ref='-21' />
+    <nd ref='-22' />
+    <nd ref='-25' />
+    <nd ref='-27' />
+    <nd ref='-29' />
+    <nd ref='-31' />
+    <nd ref='-33' />
+    <nd ref='-35' />
+    <nd ref='-45' />
+    <nd ref='-47' />
+    <nd ref='-49' />
+    <nd ref='-53' />
+    <nd ref='-55' />
+    <nd ref='-57' />
+    <nd ref='-59' />
+    <nd ref='-61' />
+    <tag k='demo' v='route' />
+  </way>
+</osm>

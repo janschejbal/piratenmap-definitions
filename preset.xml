@@ -67,7 +67,7 @@
 		</optional>
 	</item>
 	<item name="Sonstige Aktion" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/stand.png" type="node">
-		<key key="aktion" value="Sonstiges" />
+		<key key="aktion" value="sonstiges" />
 		<optional>
 			<text key="name" text="Name" default="" delete_if_empty="true" />
 			<text key="text" text="Kommentar" default="" delete_if_empty="true" />
@@ -147,7 +147,7 @@
 		<key key="demo" value="kundgebung" />
 		<text key="text" text="Kommentar" default="" delete_if_empty="true" />
 	</item>
-	<item name="Demo - Route" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/kundgebung.png" type="way">
+	<item name="Demo - Route" type="way">
 		<key key="demo" value="route" />
 		<text key="name" text="Name" default="" delete_if_empty="true" />
 		<optional>
