@@ -3,31 +3,31 @@ node[plakat], node[ort], node[ueberwachung], node[aktion], node[demo] {
 }
 
 
-node[plakat=empfehlung] { icon-image: "/images/plakat-empfehlung.png"; }
-node[plakat=gehaengt] { icon-image: "/images/plakat-gehaengt.png"; }
-node[plakat=fehlt] { icon-image: "/images/plakat-fehlt.png"; }
-node[plakat=kaputt] { icon-image: "/images/plakat-kaputt.png"; }
-node[plakat=entfernt] { icon-image: "/images/plakat-entfernt.png"; }
+node[plakat=empfehlung] { icon-image: "images/plakat-empfehlung.png"; }
+node[plakat=gehaengt] { icon-image: "images/plakat-gehaengt.png"; }
+node[plakat=fehlt] { icon-image: "images/plakat-fehlt.png"; }
+node[plakat=kaputt] { icon-image: "images/plakat-kaputt.png"; }
+node[plakat=entfernt] { icon-image: "images/plakat-entfernt.png"; }
 
-node[plakat=empfehlung][plakattyp=wand] { icon-image: "/images/plakat-wand-empfehlung.png"; }
-node[plakat=gehaengt][plakattyp=wand] { icon-image: "/images/plakat-wand-gehaengt.png"; }
-node[plakat=fehlt][plakattyp=wand] { icon-image: "/images/plakat-wand-fehlt.png"; }
-node[plakat=kaputt][plakattyp=wand] { icon-image: "/images/plakat-wand-kaputt.png"; }
-node[plakat=entfernt][plakattyp=wand] { icon-image: "/images/plakat-wand-entfernt.png"; }
+node[plakat=empfehlung][plakattyp=wand] { icon-image: "images/plakat-wand-empfehlung.png"; }
+node[plakat=gehaengt][plakattyp=wand] { icon-image: "images/plakat-wand-gehaengt.png"; }
+node[plakat=fehlt][plakattyp=wand] { icon-image: "images/plakat-wand-fehlt.png"; }
+node[plakat=kaputt][plakattyp=wand] { icon-image: "images/plakat-wand-kaputt.png"; }
+node[plakat=entfernt][plakattyp=wand] { icon-image: "images/plakat-wand-entfernt.png"; }
 
-node[plakat=empfehlung][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-empfehlung.png"; }
-node[plakat=gehaengt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-gehaengt.png"; }
-node[plakat=fehlt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-fehlt.png"; }
-node[plakat=kaputt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-kaputt.png"; }
-node[plakat=entfernt][plakattyp=grossplakat] { icon-image: "/images/plakat-grossplakat-entfernt.png"; }
+node[plakat=empfehlung][plakattyp=grossplakat] { icon-image: "images/plakat-grossplakat-empfehlung.png"; }
+node[plakat=gehaengt][plakattyp=grossplakat] { icon-image: "images/plakat-grossplakat-gehaengt.png"; }
+node[plakat=fehlt][plakattyp=grossplakat] { icon-image: "images/plakat-grossplakat-fehlt.png"; }
+node[plakat=kaputt][plakattyp=grossplakat] { icon-image: "images/plakat-grossplakat-kaputt.png"; }
+node[plakat=entfernt][plakattyp=grossplakat] { icon-image: "images/plakat-grossplakat-entfernt.png"; }
 
 
 
-node[ort=stammtisch] { icon-image: "/images/stammtisch.png"; }
-node[ort=geschaeftsstelle] { icon-image: "/images/geschaeftsstelle.png"; }
-node[ueberwachung=kamera] { icon-image: "/images/kamera.png"; }
-node[aktion=stand], node[aktion=sonstiges] { icon-image: "/images/stand.png"; }
-node[demo=kundgebung] { icon-image: "/images/kundgebung.png"; }
+node[ort=stammtisch] { icon-image: "images/stammtisch.png"; }
+node[ort=geschaeftsstelle] { icon-image: "images/geschaeftsstelle.png"; }
+node[ueberwachung=kamera] { icon-image: "images/kamera.png"; }
+node[aktion=stand], node[aktion=sonstiges] { icon-image: "images/stand.png"; }
+node[demo=kundgebung] { icon-image: "images/kundgebung.png"; }
 
 
 way[ueberwachung=kamera] {

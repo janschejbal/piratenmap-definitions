@@ -113,7 +113,7 @@
 			</optional>
 		</item>
 		<item name="Plakatiergebiet" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/gebiet-grau.png" type="closedway">
-			<key key="gebiet" value="briefkastenflyer" />
+			<key key="gebiet" value="plakate" />
 			<combo key="gebietsstatus" text="Status" values="todo,reserviert,erledigt" default="todo" delete_if_empty="true" />
 			<text key="anlass" text="Anlass" default="" delete_if_empty="true" />
 			<optional>
@@ -145,6 +145,7 @@
 	
 	<item name="Demo - Kundgebung" icon="http://www.janschejbal.de/piraten/piratenmap-definitions/images/kundgebung.png" type="node">
 		<key key="demo" value="kundgebung" />
+		<text key="name" text="Name" default="" delete_if_empty="true" />
 		<text key="text" text="Kommentar" default="" delete_if_empty="true" />
 	</item>
 	<item name="Demo - Route" type="way">

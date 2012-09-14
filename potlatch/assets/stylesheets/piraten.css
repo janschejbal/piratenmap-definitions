@@ -1,0 +1,145 @@
+/*
+
+	Potlatch 2 core stylesheet, angepasst fuer Piratennutzung
+	
+	This stylesheet should contain commonly used features and only the most essential extra attributes
+	(e.g. oneway). It needs to remain simple (not too many nested styles or dash-type decorations) in
+	order not to kill performance on slower systems and those with a less effective Flash Player (i.e. 
+	Linux).
+	
+	It is expected that experienced mappers will switch between this and other stylesheets as required.
+
+*/
+
+
+node[plakat], node[ort], node[ueberwachung], node[aktion], node[demo] {
+	 icon-width: 25px;
+}
+
+
+node[plakat=empfehlung] { icon-image:images/plakat-empfehlung.png; }
+node[plakat=gehaengt] { icon-image:images/plakat-gehaengt.png; }
+node[plakat=fehlt] { icon-image:images/plakat-fehlt.png; }
+node[plakat=kaputt] { icon-image:images/plakat-kaputt.png; }
+node[plakat=entfernt] { icon-image:images/plakat-entfernt.png; }
+
+node[plakat=empfehlung][plakattyp=wand] { icon-image:images/plakat-wand-empfehlung.png; }
+node[plakat=gehaengt][plakattyp=wand] { icon-image:images/plakat-wand-gehaengt.png; }
+node[plakat=fehlt][plakattyp=wand] { icon-image:images/plakat-wand-fehlt.png; }
+node[plakat=kaputt][plakattyp=wand] { icon-image:images/plakat-wand-kaputt.png; }
+node[plakat=entfernt][plakattyp=wand] { icon-image:images/plakat-wand-entfernt.png; }
+
+node[plakat=empfehlung][plakattyp=grossplakat] { icon-image:images/plakat-grossplakat-empfehlung.png; }
+node[plakat=gehaengt][plakattyp=grossplakat] { icon-image:images/plakat-grossplakat-gehaengt.png; }
+node[plakat=fehlt][plakattyp=grossplakat] { icon-image:images/plakat-grossplakat-fehlt.png; }
+node[plakat=kaputt][plakattyp=grossplakat] { icon-image:images/plakat-grossplakat-kaputt.png; }
+node[plakat=entfernt][plakattyp=grossplakat] { icon-image:images/plakat-grossplakat-entfernt.png; }
+
+
+
+node[ort=stammtisch] { icon-image:images/stammtisch.png; }
+node[ort=geschaeftsstelle] { icon-image:images/geschaeftsstelle.png; }
+node[ueberwachung=kamera] { icon-image:images/kamera.png; }
+node[aktion=stand], node[aktion=sonstiges] { icon-image:images/stand.png; }
+node[demo=kundgebung] { icon-image:images/kundgebung.png; }
+
+
+way[ueberwachung=kamera] {
+	color: #0000ff;
+	width: 3;
+	opacity: 0.7;
+	fill-opacity: 0.4;
+	fill-color: #0000ff;
+}
+
+way[demo=route] {
+	width: 16;
+	color: #ff8000;
+	opacity: 0.8;
+}
+
+way[gebiet] {
+	fill-color: #666666;
+	fill-opacity: 0.3;
+	color: #666666;
+	opacity: 0.5;
+	width: 2;
+	dashes: 20,5;
+}
+
+way[gebiet=briefkastenflyer] {
+	dashes: 20,5, 5,5;
+}
+
+way[gebiet=plakate] {
+	dashes: 20,5, 5,5, 5,5, 5,5;
+}
+
+way[gebiet][gebietsstatus=todo] {
+	fill-color: #ff3333;
+	color: #ff3333;
+}
+
+way[gebiet][gebietsstatus=erledigt] {
+	fill-color: #00ff00;
+	color: #00ff00;
+}
+
+way[gebiet][gebietsstatus=reserviert] {
+	fill-color: #ffff00;
+	color: #ffff00;
+}
+
+way[demo=bannmeile] {
+	fill-color: #ff0000;
+	fill-opacity: 0.4;
+	color: #ff0000;
+	opacity: 1;
+	width: 4;	
+	dashes: 5,5;
+}
+
+
+
+
+
+
+
+/* Addressing */
+node[addr:housenumber] !:drawn,
+node[addr:housename] !:drawn { icon-image: circle; icon-width: 8; color: #B0E0E6; casing-color:blue; casing-width: 1; z-index: 20; }
+way[addr:interpolation] { color: #B0E0E6; width: 3; dashes: 3,3;}
+
+way .area_small_name {text-color: black; font-size: 10; text: name; text-halo: #ffffaa; text-halo-radius: 2; text-position: center;}
+
+
+
+/* Interactive */
+/* Turn restrictions */
+
+relation[type=restriction] node { z-index:11; icon-image: icons/restriction.png; }
+
+/* Interactive way behaviour */
+
+way::highlight :hover	{ z-index: 2; width: eval('_width+10'); color: #ffff99; }
+way::highlight :hover :background { color: lightcyan; }
+way::highlight :selected { z-index: 2; width: eval('_width+10'); color: yellow; opacity: 0.7;}
+way::highlight :selected :background { color: cyan; }
+way::highlight :restrictfrom { z-index: -1; width: eval('_width+10'); color: red; opacity: 0.7;}
+way::highlight :restrictto { z-index: -1; width: eval('_width+10'); color: blue; opacity: 0.7;}
+/*way !:drawn !:hasTags{ z-index:10; width: 0.5; color: red; }*/
+way !:drawn { z-index:10; width: 1; color: #333333; }
+way :tiger { casing-color: #ff00ff;}
+
+/* Interactive node behaviour */
+
+node :dupe { z-index: 9; icon-image: circle; icon-width:8; color: white; opacity: 0.4; casing-opacity: 0.4; casing-color: red; casing-width: 3; }
+node :hoverway { z-index: 9; icon-image: circle; icon-width: 8; color: blue; layer: 5; }
+node !:drawn :hasTags :poi { z-index: 2; icon-image: circle; icon-width: 8; color: #00ac00; casing-color: #004400; casing-width: 1; }
+node !:drawn :poi { z-index: 2; icon-image: circle; icon-width: 8; color: #BBB; casing-color: #333; casing-width: 1; }
+node !:drawn :hasTags :selectedway { z-index: 9; icon-image: circle; icon-width: 10; color: black; layer: 5; }
+node !:drawn :hasTags { z-index: 9; icon-image: circle; icon-width: 8; color: black; }
+node !:drawn :selectedway { z-index: 9; icon-image: circle; icon-width: 8; color: red; casing-color: #cc0000; casing-width: 1; layer: 5; }
+node::selectedNode :selected { z-index: 1; icon-image: square; icon-width: eval('_width+10'); color: yellow; interactive: no; layer: 5; }
+node::selectedNode :selected :background { color: cyan; }
+node::junctionNode :junction :selectedway { z-index: 8; icon-image: circle; icon-width: 12; casing-color: black; casing-width: 1; layer: 5; }

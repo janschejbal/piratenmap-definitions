@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<stylesheets>
+	<stylesheet>
+		<name>Piraten</name>
+		<url>stylesheets/piraten.css</url>
+	</stylesheet>
+	<stylesheet>
+		<name>Wireframe</name>
+		<url>stylesheets/wireframe.css</url>
+	</stylesheet>
+</stylesheets>
